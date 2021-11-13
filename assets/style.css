@@ -1,0 +1,87 @@
+}
+a:link {
+    color:aqua;
+    text-decoration: none;
+}
+li:nth-child(1) {
+    font-weight: bold;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    background-color:yellow;
+}
+header {
+    background-color: rgb(236, 240, 247);
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px; 
+    padding: 20px 40px;
+}
+aside {
+    float: right;
+    margin: -45%;
+    width: 30%;
+    background-color: aliceblue;
+    border-top: 5px solid aqua;
+    border-bottom: 5px solid aqua;
+    padding: 20px 40px;
+}
+footer {
+    padding: 20px 40px;
+}
+article p:last-child {
+    color:rgb(137, 96, 175);
+}
+
+h2 {
+    color: lightseagreen;
+    position: relative;
+}
+
+h4{
+  text-align: center;
+}
+article h2::after {
+    content: "TOP";
+    background-color: yellow;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px 10px;
+    position: absolute;
+    top: -15px;
+    right: -25px;
+}
+.post-img {
+    width: 100%;
+    height: auto 100%
+}
+.container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+button{
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+}
+body {
+    width:700px;
+    margin:auto;
+    text-align:left;
+    margin-top:40px;
+    font-family:Arial;
+    border-top: 10px solid rgba(53, 198, 255, 0.795);
+    position: relative;
+}
+
+nav {
+    float: right;
+    font-size: 15px;
+    margin-top: 20px;
+  }
